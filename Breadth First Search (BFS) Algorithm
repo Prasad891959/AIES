@@ -1,0 +1,8 @@
+Create a graph using an adjacency list.
+Create an empty queue and a visited set.
+Insert the starting node into the queue and mark it as visited.
+While the queue is not empty:
+Remove the first node.
+Print the node.
+Add all unvisited adjacent nodes to the queue.
+Stop when all nodes are visited.
