@@ -1,0 +1,6 @@
+Create a graph using an adjacency list.
+Create an empty visited set.
+Start from the source node.
+Mark the node as visited and print it.
+Recursively visit each unvisited adjacent node.
+Continue until all nodes are visited
