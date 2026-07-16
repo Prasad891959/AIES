@@ -1,0 +1,19 @@
+jug4 = 0
+jug3 = 0
+print("Initial State:", (jug4, jug3))
+jug4 = 4
+print("Fill 4L Jug:", (jug4, jug3))
+jug3 = 3
+jug4 = 1
+print("Pour 4L -> 3L:", (jug4, jug3))
+jug3 = 0
+print("Empty 3L Jug:", (jug4, jug3))
+jug3 = 1
+jug4 = 0
+print("Pour Remaining:", (jug4, jug3))
+jug4 = 4
+print("Fill 4L Jug:", (jug4, jug3))
+jug4 = 2
+jug3 = 3
+print("Pour 4L -> 3L:", (jug4, jug3))
+print("Goal Reached: 2 Litres in 4L Jug")
