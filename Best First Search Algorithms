@@ -1,0 +1,6 @@
+Start from the source node.
+Put the source node into a priority queue.
+Select the node with the lowest heuristic value.
+If it is the goal node, stop.
+Otherwise, add its unvisited neighbors to the queue.
+Repeat until the goal is found.
