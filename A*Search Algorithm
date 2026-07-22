@@ -1,0 +1,9 @@
+Start from the source node.
+Calculate:
+g(n) = actual path cost
+h(n) = heuristic cost
+f(n) = g(n) + h(n)
+Select the node with the smallest f(n).
+Expand neighbors and update costs.
+Continue until the goal node is reached.
+Return the optimal path.
